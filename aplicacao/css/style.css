@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image: url('../imagens/fundo2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.background {
+    background-color: #e4d9ca;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 3cm;
+    border-bottom: solid 10px #3B403A;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabecalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabecalho-link a{
+    color: #3B403A;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+
+.cabecalho-link a:hover{
+    color: #1c1f1c;
+}
+
+.logo i{
+    height: 65px;
+    width: 65px;
+    background: transparent;
+    border: 3px solid #3B403A;
+    color: #3B403A;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.logo i:hover{
+    color: #1c1f1c;
+    border: 3px solid #1c1f1c;
+}
+
+main{
+    min-height: 85vh;
+}
+ 
+.conteudo{
+    margin-top: 5mm;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 80%;
+    border:solid 2px #3B403A;
+    background-color: #e4d9ca;
+    border-radius: 7px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 10px 0;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.formulario{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.campos-formulario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formulario label {
+    flex: 1;
+    padding: 5px;
+}
+
+.formulario select, .formulario input[type="number"], .formulario input[type="text"], .formulario input[type="email"] {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.formulario-valores{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.formulario-valores label {
+    flex: 1;
+    padding: 5px;
+}
+
+.formulario-valores select, .formulario-valores input[type="number"] {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+}
+
+#calcular {
+    background-color: #112c1ac2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#calcular:hover {
+    background-color: #112c1a;
+}
+
+.preco-material {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tabela{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.tabela table{
+    width: 100%;
+}
+
+.tabela thead{
+    background-color: #3B403Acf;
+    color: white;
+    -webkit-text-stroke: 0.2px black;
+}
+
+#foot-tabela{
+    background-color: #3B403A;
+    color: white;
+    -webkit-text-stroke: 0.2px black;
+}
+
+#excluir {
+    background-color: #c00e0ecf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#excluir:hover {
+    background-color: #c00e0e;
+    ;
+}
+
+
+.tabela tbody td{
+    margin: 0;
+    padding: 5px;
+    border-top: 1px solid #3B403A;
+}
+
+.tabela p {
+    text-align: left;
+}
+
+#limpar {
+    background-color: #eb7e00cf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#limpar:hover {
+    background-color: #eb7e00;
+}
+
+#salvar {
+    background-color: #0060c0cf;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#salvar:hover {
+    background-color: #0060c0;
+}
+
+.background-footer{
+    background: #3B403A;
+    height: 10%;
+}
